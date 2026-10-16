@@ -1,0 +1,244 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-bed {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.f-info-socials {
+    width: 100%;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.f-info-socials i {
+    color: #222222;
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.f-info-socials i:hover {
+    color: #fe424d;
+    transform: scale(1.15);
+}
+
+.f-info-brand {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222222;
+}
+
+.f-info-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.f-info-links a {
+    text-decoration: none !important;
+    color: #222222;
+    font-size: 0.95rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline !important;
+}
+
+/* Card base styles */
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card_text p {
+    font-weight: 400;
+}
+
+/* Listing card link + hover effect */
+.listing-link {
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}
+
+.listing-link:hover,
+.listing-link:visited,
+.listing-link:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.listing-card .card-title,
+.listing-card .card-text {
+    text-decoration: none !important;
+}
+
+.listing-card {
+    transition: all 0.25s ease-in-out;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.listing-card:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Listing show page */
+.listing-container {
+    max-width: 750px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #333;
+}
+
+.listing-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.listing-image {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.listing-container h2 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222222;
+}
+
+.listing-details {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    border-top: 1px solid #eee;
+}
+
+.listing-details li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.05rem;
+}
+
+.listing-details li strong {
+    color: #717171;
+    font-weight: 500;
+}
+
+.listing-details li span {
+    font-weight: 600;
+    color: #222222;
+    text-align: right;
+}
+
+.actions {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Renamed from .btn to avoid clashing with Bootstrap's .btn class,
+   which was causing the buttons to go invisible on hover */
+.listing-btn {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    margin: 0.4rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.listing-btn-edit {
+    background-color: #222222 !important;
+    color: #fff !important;
+}
+
+.listing-btn-delete {
+    background-color: #fe424d !important;
+    color: #fff !important;
+}
+
+.listing-btn:hover {
+    opacity: 0.88;
+    transform: translateY(-2px);
+}
+
+.listing-btn-edit:hover {
+    background-color: #222222 !important;
+    color: #fff !important;
+}
+
+.listing-btn-delete:hover {
+    background-color: #fe424d !important;
+    color: #fff !important;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 1.8rem;
+    color: #fe424d;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.back-link:hover {
+    text-decoration: underline !important;
+}
